@@ -1,28 +1,28 @@
-package Builder;
+package builder;
 
 /**
  * @program: fresh-design-pattern
- * @Date: 2019/5/19 16:56
+ * @Date: 2019/5/19 16:58
  * @Author: Ling Chen
  * @Description:
  */
-public class ConcreteBuliderOne implements Builder{
+public class ConcreteBuliderTwo implements Builder{
 
     private Product product = new Product();
 
     @Override
     public void buildPartA() {
-        product.addPart("milk");
+        product.addPart("pork");
     }
 
     @Override
     public void buildPartB() {
-        product.addPart("egg");
+        product.addPart("beef");
     }
 
     @Override
     public void buildPartC() {
-        product.addPart("cheese");
+        product.addPart("goose");
     }
 
     @Override

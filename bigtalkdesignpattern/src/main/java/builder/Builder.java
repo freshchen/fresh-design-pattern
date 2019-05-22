@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 /**
  * @program: fresh-design-pattern
